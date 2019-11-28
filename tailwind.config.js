@@ -14,7 +14,8 @@ module.exports = {
     }
   },
   variants: {
-    // Enabled by default
+    // https://tailwindcss.com/docs/pseudo-class-variants/
+    // textColor: ['responsive', 'hover', 'focus', 'group-hover'],
     // backgroundColor: ['responsive', 'hover', 'focus'],
   },
   plugins: [],

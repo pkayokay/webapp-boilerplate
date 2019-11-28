@@ -51,6 +51,8 @@ default: &default
 development:
   <<: *default
   compile: true
+  # Set to true to see bundle size
+  # extract_css: true
 
   # Verifies that correct packages and versions are installed by inspecting package.json, yarn.lock, and node_modules
   check_yarn_integrity: true
