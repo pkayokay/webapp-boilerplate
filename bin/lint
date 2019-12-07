@@ -1,0 +1,1 @@
+./node_modules/.bin/eslint ./app/javascript/controllers/*.js --fix

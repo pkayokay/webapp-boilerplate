@@ -1,10 +1,10 @@
-import { Controller } from 'stimulus';
+import { Controller } from "stimulus"
 
 export default class extends Controller {
-  static targets = ['name', 'warning']
+  static targets = ["name", "warning"]
 
   connect() {
-    console.log('Connect component')
+    console.log("Connect component")
   }
 
   submit() {
