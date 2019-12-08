@@ -82,10 +82,10 @@ Style/Attr:
     - "app/graphql/**/*"
 Style/BlockDelimiters:
   Enabled: false
-# Style/ClassAndModuleChildren:
-#   EnforcedStyle: nested
-#   Exclude:
-#     - "config/application.rb"
+Style/ClassAndModuleChildren:
+  EnforcedStyle: nested
+  Exclude:
+    - "config/application.rb"
 Style/ConditionalAssignment:
   Enabled: false
 Style/Documentation:
