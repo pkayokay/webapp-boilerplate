@@ -2,13 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-  padding: 2em 1em;
-  text-align: center;
-}
-
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+// Set default link colors
+a {
+  color: #0000ee;
+  text-decoration: underline;
 }
 
 /*Custom varients do not need module definitions*/
