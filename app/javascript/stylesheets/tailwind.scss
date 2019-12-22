@@ -4,10 +4,23 @@
 
 // Set default link colors
 a {
+  @apply underline;
   color: #0000ee;
-  text-decoration: underline;
+}
+// TODO: add custom focus, active, visited outline and text colors
+
+nav {
+  box-shadow: 0 0 4px rgba(193, 193, 193, 0.35);
 }
 
+// TODO: possibly add pre-defined typography colors, sizes
+h1 {
+  @apply text-black font-bold text-xl;
+}
+
+p {
+  @apply text-gray-900;
+}
 /*Custom varients do not need module definitions*/
 @variants hover, responsive {
   .red-bg {
