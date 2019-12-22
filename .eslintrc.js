@@ -9,7 +9,7 @@ module.exports = {
     "padded-blocks": ["error", "never"],
     "indent": ["error", 2],
     "semi": ["error", "never"],
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single"],
     "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
     "no-trailing-spaces": ["error"],
     "no-multiple-empty-lines": ["error", { "max": 1 }],

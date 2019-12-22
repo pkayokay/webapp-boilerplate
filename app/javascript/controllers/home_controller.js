@@ -1,17 +1,17 @@
-import { Controller } from "stimulus"
+import { Controller } from 'stimulus'
 
 export default class extends Controller {
-  static targets = ["name", "warning"]
+  static targets = ['name', 'warning']
 
   connect() {
-    console.log("Connect component")
+    console.log('Connect component')
   }
 
   submit() {
     if (this.name.trim().length === 0) {
-      this.warning.classList.add("warning--show")
+      this.warning.classList.add('warning--show')
     } else {
-      this.warning.classList.remove("warning--show")
+      this.warning.classList.remove('warning--show')
       alert(this.nameTarget.value)
     }
   }
